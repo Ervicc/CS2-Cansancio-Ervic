@@ -12,3 +12,4 @@ Calculates total travel fare based on name, distance, and passenger count.
 * **Input:** Validates all user inputs using selection structures (`if`).
 * **Process:** Checks that the name is not empty, distance is greater than 0, and passengers are a positive number, re-prompting once if invalid.
 * **Output:** Safely displays verified passenger name and total fare.
+
