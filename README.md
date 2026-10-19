@@ -1,10 +1,14 @@
 # Travel Fare Calculator
 
 ## Description
-This program calculates the total travel fare based on the passenger's name, distance in kilometers, and the number of passengers, incorporating input validation to ensure all data is correct and secure.
+Calculates total travel fare based on name, distance, and passenger count.
 
 ## Version 1 - Original code without input validation
-* **Input:** Accepts the passenger's name, distance (km), and number of passengers.
-* **Process:** Calculates the total fare by multiplying distance, the fixed fare rate, and the number of passengers.
-* **Output:** Displays the passenger's name and the rounded total fare in PHP.
-* **Note:** Does not include validation for empty strings or invalid data types.
+* **Input:** Passenger name, distance (km), and number of passengers.
+* **Process:** Multiplies distance by fixed rate (14) and number of passengers.
+* **Output:** Displays passenger name and total fare.
+
+## Version 2 - Updated code with input validation
+* **Input:** Validates all user inputs using selection structures (`if`).
+* **Process:** Checks that the name is not empty, distance is greater than 0, and passengers are a positive number, re-prompting once if invalid.
+* **Output:** Safely displays verified passenger name and total fare.
