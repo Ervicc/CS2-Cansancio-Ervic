@@ -22,3 +22,4 @@ total_fare = distance * FARE_RATE * passengers
 
 print("\nPassenger:", name)
 print("Total Fare: PHP", round(total_fare, 2))
+
